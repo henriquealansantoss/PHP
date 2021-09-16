@@ -39,4 +39,4 @@ echo max($lista) . "<br>";
 echo min($lista);
 echo "<br>" . "-------------------" . "<br>";
 
-// lista com todas estão no próprio site do php
+// lista com todas estão no próprio site do php 'Documentação'
