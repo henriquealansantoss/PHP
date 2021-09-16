@@ -30,7 +30,7 @@ echo round(12.549819867394673, 2); // casas decimais
 echo "<br>" . "-------------------" . "<br>";
 
 // gerar numero aleatorio
-echo rand(1, 10); // parametros = o minimo e o máximo
+echo rand(1, 10); // parametros = o minimo e o máximo - irá gerar um numero aleatorio entre esses valores.
 echo "<br>" . "-------------------" . "<br>";
 
 // saber qual o maior e o menor numero de uma lista
