@@ -1,6 +1,16 @@
 <?php
-require_once('header.php');
+session_start();
+require('header.php');
+
+if ($_SESSION['aviso']) {
+    echo $_SESSION['aviso'];
+    $_SESSION['aviso'] = '';
+}
+
+
+
 ?>
+<a href="apagar.php">ApagarCookie</a><br><br>
 
 <form method="POST" action="recebedor.php">
     <label>Nome:<br>
