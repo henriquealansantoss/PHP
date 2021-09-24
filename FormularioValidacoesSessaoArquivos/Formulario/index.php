@@ -7,6 +7,10 @@ require_once('header.php');
         <input type="text" name="nome" id="nome" />
     </label>
     <br><br>
+    <label> E-mail: <br>
+        <input type="email" name="email" id="email" />
+    </label>
+    <br><br>
     <label> Idade: <br>
         <input type="text" name="idade" id="idade" />
     </label>
