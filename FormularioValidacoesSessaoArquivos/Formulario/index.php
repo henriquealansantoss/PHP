@@ -12,6 +12,7 @@ if ($_SESSION['aviso']) {
 ?>
 <a href="apagar.php">ApagarCookie</a><br><br>
 
+
 <form method="POST" action="recebedor.php">
     <label>Nome:<br>
         <input type="text" name="nome" id="nome" />
