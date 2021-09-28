@@ -32,7 +32,7 @@ print_r($pares);
 
 echo '<br>' . '--------------' . '<br>';
 
-// filtro para executar algua coisa - map
+// filtro para executar alguma coisa - map
 // para cada item ee vai rodar essa função
 
 $multiplicacao = array_map(function ($num) {
