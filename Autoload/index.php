@@ -2,6 +2,12 @@
 
 require 'autoload.php';
 
+use \matematica\Basica;
+use \foto\Upload;
 
-$m= new Multiplicacao();
-echo $m->multiplicar(10,10);
+$m = new Basica();
+echo $m->somar(10, 10);
+
+
+$up = new Upload();
+echo $up;
